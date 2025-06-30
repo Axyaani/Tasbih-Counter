@@ -6,12 +6,9 @@ function App() {
  const increment = ()=>{
   setCount(Count+1)
  }
- console.log(setCount);
  
  const decrement =()=>{
-   if(Count>0){
-      setCount(Count-1)
-   }
+  setCount(Count>0)?setCount(Count-1)
  }
  const reset =()=>{
   setCount(0)
