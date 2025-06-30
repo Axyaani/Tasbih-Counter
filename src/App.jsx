@@ -8,7 +8,7 @@ function App() {
  }
  
  const decrement =()=>{
-  setCount(Count>0)?setCount(Count-1)
+  setCount(Count>0 ? Count-1 : 0)
  }
  const reset =()=>{
   setCount(0)
